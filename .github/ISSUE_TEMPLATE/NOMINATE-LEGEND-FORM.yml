@@ -1,0 +1,34 @@
+name: Legend Nomination
+description: Use this form to nominate someone as a Legend to the Fuel Developer Champions program.
+title: "[Nomination] : NAME OF NOMINEE"
+labels: ["nomination"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to submit a nomination for someone to the Fuel Developer Champions program as a Legend! Legends are extraordinary developers who are building innovative and unique solutions on Fuel, who actively contribute to the growth of the Fuel developer community, serve as mentors to rising developers in Fuel and are seen as thought leaders both within Fuel and the wider web3 community. We are excited that you are nominating someone to join the program as a Legend.
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out each section to the best of your ability. The more information you can provide the better we are able to evaluate your nomination.
+  - type: textarea
+    id: proof-of-projects
+    attributes:
+      label: Proof of their projects
+      description: Share with us the links to GitHub repos where they are taking the lead in the development of the codebase in a Fuel related project that is bringing innovation to the Fuel ecosystem.
+      placeholder: Add links to their project(s) on GitHub here.
+  - type: textarea
+    id: proof-of-content-creation
+    attributes:
+      label: Proof of their content creation
+      description: Share with us the links to any content they have created in the past three months that is related to Fuel. This can include blog posts, videos, podcasts, etc.
+      placeholder: Add links to their content here.
+  - type: textarea
+    id: nomination-reason
+    attributes:
+      label: Reason for nomination
+      description: | 
+        Share with us what makes this person a good candidate for the Fuel Developer Champions program and to enter at the top tier of the program. The more information you can provide the better we are able to evaluate your nomination.
+      placeholder: Why is this person a Legend in the Fuel developer community?
+    validations:
+      required: true
